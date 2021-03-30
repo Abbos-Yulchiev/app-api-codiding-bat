@@ -24,7 +24,7 @@ public class UserPractice {
 
     private Date date;
 
-    @OneToOne
+    @ManyToOne
     private User user;
 
     @OneToOne
