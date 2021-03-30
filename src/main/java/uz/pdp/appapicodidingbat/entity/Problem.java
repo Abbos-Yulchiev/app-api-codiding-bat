@@ -25,7 +25,7 @@ public class Problem {
 
     private String solution;
 
-    @OneToOne
+    @ManyToOne
     private Section section;
 
 }
